@@ -1,0 +1,15 @@
+<!--pages/product/product.wxml-->
+<!-- 添加商品的组件 -->
+<view class='card'>
+  <form bindsubmit='checkForm'>
+    <view class='cell-item'>
+      <input type='text' placeholder='输入你的姓名' name="pno"/>
+    </view>
+    <view class='cell-item'>
+      <input type='text' placeholder='请输入订单编号' name="price"/>
+    </view>
+    <view class='cell-item'>
+      <button formType='submit'>提交查询</button>
+    </view>
+  </form>
+</view>

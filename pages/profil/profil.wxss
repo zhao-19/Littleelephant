@@ -1,0 +1,16 @@
+/* pages/profil/profil.wxss */
+.avatar{
+  background:rgb(240, 236, 233);
+  height:400rpx;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.avatar image{
+  width: 190rpx;
+  height: 190rpx;
+  border-radius: 50%;
+  border:10rpx solid rgba(0,0,0,.3);
+}
+/* 1.单击图片播放背景音乐 */
+/* 2.再次点击图片暂停背景音乐播放 */
